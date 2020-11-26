@@ -235,6 +235,25 @@
     height: 250px;
     background: #F7F7F7;
 }
+
+.main__constructions__bottom,
+.main__constructions__top,
+.main-services__images__top,
+.main-services__images__bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+
+}
+
+
+.main-services__images__top,
+.main-services__images__bottom{
+    gap: 0;
+}
+
+
+
 .main-constructions img{
     margin-top: 59px;
     margin-left: 145px;
